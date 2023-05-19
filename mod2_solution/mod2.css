@@ -1,0 +1,32 @@
+*{
+  box-sizing:border-box;
+}
+
+h1.header{
+  margin-bottom:10px;
+  text-align:center;
+}
+
+@media(min-width:992px) {
+  .desktoprow{
+    float:left;
+    width:33.3%;
+    border: 1px solid black;
+  }
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+  .tabletrow{
+    float:left;
+    width:50%
+  }
+
+}
+
+@media(max-width:767px){ 
+  .mobilerow{
+    width:100%;
+    float:left;
+  }
+}
