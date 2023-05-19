@@ -1,17 +1,65 @@
 *{
   box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial;
+
+
 }
 
 h1.header{
-  margin-bottom:10px;
+  margin-top:20px;
+  margin-bottom:30px;
   text-align:center;
 }
+
+
+
+.row{
+  width:100%;
+  margin-left:3%;
+  
+ 
+  
+  
+  
+ 
+  
+  
+
+}
+
+
+div.row>div{
+  height:170px;
+  text-align:center;
+  
+  
+
+  
+
+}
+
+
+
+
+
+
 
 @media(min-width:992px) {
   .desktoprow{
     float:left;
-    width:33.3%;
+    width:30%;
     border: 1px solid black;
+    position:relative;
+    margin-left:20px;
+    color:rgb(0, 0, 0);
+    
+   
+
   }
 
 }
@@ -19,14 +67,84 @@ h1.header{
 @media(min-width:768px) and (max-width:991px) {
   .tabletrow{
     float:left;
-    width:50%
+    width:45%;
+    border: 1px solid rgb(0, 0, 0);
+    position:relative;
+    margin-bottom:20px;
+    margin-left:20px;
+    
+   
+    
+    
+   
+   
+  }
+
+  #extra{
+    width:92%;
+    
+
   }
 
 }
 
 @media(max-width:767px){ 
   .mobilerow{
-    width:100%;
+    position:relative;
+    width:95%;
     float:left;
+    border: 1px solid black;
+    margin-bottom:20px;
+    
+
+  
+    
   }
 }
+
+
+
+.top-right-box{
+  position:absolute;
+  left:70%;
+  
+  
+  width:30%;
+  height:30px;
+  border-color:black;
+
+  border-left:1px;
+  border-right:0px;
+  border-bottom:1px;
+  border-top:0px;
+  border-style:solid;
+  color:white;
+  background-color:rgb(20, 20, 20);
+ 
+  }
+
+  .fire{
+    background-color:rgb(226,88,34);
+    
+  }
+.water{
+  background-color: rgb(0, 102, 255);
+}  
+
+.air{
+  background-color: rgb(6, 139, 24);
+}
+h7{
+  position:relative;
+  top:3px;
+  font-size:20px;
+  
+}
+
+  p{
+    margin-top:60px;
+    color:white;
+    
+    }
+    
+  
